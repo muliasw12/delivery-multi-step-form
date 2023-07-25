@@ -58,7 +58,7 @@ const Finish = () => {
 
             <div className={classes.second}>
                 <div className={classes.summary}>
-                    <h2>Summary</h2>
+                    {/* <h2>Summary</h2>
                     <p>10 items purchased</p>
 
                     <div className={classes.estimate}>
@@ -89,7 +89,7 @@ const Finish = () => {
                             <h2>{total && total.toLocaleString()}</h2>
                         </div>
                         
-                    </div>  
+                    </div>   */}
                 </div>
             </div>
 
