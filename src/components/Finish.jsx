@@ -43,10 +43,10 @@ const Finish = () => {
                         <h1>Thank You!</h1>
                     </div> 
 
-                    <div className={classes.order}>
+                    {/* <div className={classes.order}>
                         <h3>Order ID: {orderId}</h3>
                         <p>Your order will be delivered today with {selectedShipment ? selectedShipment.shipment : 'N/A'}</p>
-                    </div>
+                    </div> */}
 
                     <div className={classes.back} onClick={handleBackToHomepage}>
                         <p>&larr; Back to Homepage</p>
